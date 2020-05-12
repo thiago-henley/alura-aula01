@@ -1,2 +1,2 @@
-# alura-aula01
+# Curso Alura - Imersão CSS
 Primeira aula do curso Alura. 
