@@ -1,0 +1,41 @@
+body{
+    background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-linhas-de-zoom-em-quadrinhos-verde_1017-17368.jpg?size=338&ext=jpg');
+    background-size: 1370px 650px;
+}
+#extensoes:hover{
+    color: blue;
+    text-shadow: 2px 2px 2px red;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+h1:hover{
+    background-color: lightyellow;
+}
+
+.lista ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista li{
+    list-style: none;
+}
+
+ul{
+    background-color: chartreuse;
+}
+
+.titulo{
+    text-align: center;
+    font-style: italic;
+    
+}

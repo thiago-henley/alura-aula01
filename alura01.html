@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Alura Curso aula01</title>
+        <link rel="stylesheet" href="./alura01.css">
+    </head>
+    <body>
+
+        <p id='extensoes'>Aprenda as extensões da linguagem*:</p>
+
+        <div class='lista'>
+        <ul>
+            <li id='py'><a href="#">Python</a></li>
+            <li id='html_css'><a href='#'>html/ CSS</a></li>
+            <li id='js'><a href='#'>JavaScript</a></li>
+            <li id='java'><a href='#'>Java</a></li>
+        </ul>
+        </div>
+
+        <h1 class='titulo'>Começando o curso!</h1>
+       
+        <img src='https://www.python.org/static/opengraph-icon-200x200.png'>
+        <img src='https://raw.githubusercontent.com/learnbr/html-css/master/logo.png'>
+        <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png' width=10%>
+        <img src='https://miro.medium.com/max/1024/1*jkOCjQlkGZjbhWdvh7LfRA.png' width=20%>
+
+        <script>
+            var python = document.getElementById('py')
+            var htmlCSS = document.getElementById('html_css')
+            var javascript = document.getElementById('js')
+            var java = document.getElementById('java')
+
+            python.addEventListener('click', () => alert('Extensão de Python: .py'))
+            htmlCSS.addEventListener('click', () => alert('A extensão de html: .html / A extensão de CSS: .css'))
+            javascript.addEventListener('click', () => alert('A extensão de JavaScript:   .js'))
+            java.addEventListener('click', () => alert('A extensão de Java:       .java'))
+        </script>
+    </body>
+</html>
